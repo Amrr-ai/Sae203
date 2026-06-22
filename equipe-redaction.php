@@ -39,6 +39,7 @@ if (!$resultat) {
     <link rel="stylesheet" href="./ressources/css/ne-pas-modifier/header.css">
     <link rel="stylesheet" href="./ressources/css/ne-pas-modifier/accueil.css">
     <link rel="stylesheet" href="./ressources/css/accueil.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <?php require_once('./ressources/includes/top-navigation.php'); ?>
