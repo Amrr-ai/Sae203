@@ -11,3 +11,7 @@ __MACOSX/
 *.local.*
 *.temp.*
 *.tmp.*
+
+# Local configuration environment files
+.env.dev
+.env.prod
