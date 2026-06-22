@@ -26,7 +26,6 @@ require_once('./ressources/includes/connexion-bdd.php');
     <?php require_once('./ressources/includes/top-navigation.php'); ?>
     <?php require_once('./ressources/includes/bulle.php'); ?>
 
-    <!-- Vous allez principalement écrire votre code HTML ci-dessous -->
     <main class="conteneur-principal conteneur-1280">
         <ul class="liste-ancres">
             <li><a href="./a-propos.php#presentation">Présentation</a></li>
