@@ -63,7 +63,9 @@
 .liste-axes {
     list-style: disc;
     list-style-position: outside;
-    margin-top: -1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
 }
 
 .titre:target::before {
