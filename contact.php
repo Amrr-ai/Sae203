@@ -1,6 +1,4 @@
 <?php
-// Page de contact et de reception des messages pour la SAE 203
-
 $couleur_bulle_classe = "jaune";
 $page_active = "contact";
 
