@@ -12,7 +12,7 @@ $erreur = "";
 
 if ($formulaire_soumis) {
     $titre = htmlentities(trim($_POST['titre'] ?? ''));
-    $chapo = trim($_POST['chapo'] ?? '');
+    $chapo = htmlentities(trim($_POST['chapo'] ?? ''));
     $contenu = trim($_POST['contenu'] ?? '');
     $image = trim($_POST['image'] ?? '');
     $lien_yt = trim($_POST['lien_yt'] ?? '');
