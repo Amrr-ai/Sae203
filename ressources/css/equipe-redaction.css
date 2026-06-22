@@ -12,3 +12,22 @@
 .bulle-icone-bordure.bleu {
     background-color: #0044aa;
 }
+
+/* Restaurer les styles de la bulle impactés par Tailwind */
+.bulle .txt-grand {
+    font-size: 4.375rem !important;
+    line-height: normal !important;
+}
+.bulle .txt-petit {
+    font-size: 3.125rem !important;
+    line-height: normal !important;
+}
+.bulle .titre {
+    width: 50.78125% !important;
+}
+.bulle .txt-grand span,
+.bulle .txt-petit span {
+    display: inline-block !important;
+    padding: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+}
