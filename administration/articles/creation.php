@@ -15,7 +15,7 @@ if ($formulaire_soumis) {
     $chapo = htmlentities(trim($_POST['chapo'] ?? ''));
     $contenu = htmlentities(trim($_POST['contenu'] ?? ''));
     $image = htmlentities(trim($_POST['image'] ?? ''));
-    $lien_yt = trim($_POST['lien_yt'] ?? '');
+    $lien_yt = htmlentities(trim($_POST['lien_yt'] ?? ''));
     $auteur_id = $_POST['auteur_id'] !== "" ? (int)$_POST['auteur_id'] : "NULL";
 
     if ($titre === "" || $chapo === "" || $contenu === "" || $image === "") {
