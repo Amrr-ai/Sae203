@@ -1,0 +1,14 @@
+/* Styles spécifiques pour la page Équipe de rédaction */
+
+/* Correction du conflit Tailwind / Menu */
+.navigation-principale .lien-admin a {
+    color: aliceblue !important;
+}
+
+/* Définition de la couleur bleue pour la bulle (non présente dans le CSS de base) */
+.bulle-icone.bleu {
+    background-color: #0066ff;
+}
+.bulle-icone-bordure.bleu {
+    background-color: #0044aa;
+}
