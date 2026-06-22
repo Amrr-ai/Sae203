@@ -55,27 +55,15 @@
     font-weight: 600;
     line-height: 1.25;
 }
-
 .projet .description {
     color: #363636;
     margin-bottom: 0 !important;
 }
 
 .liste-axes {
-    list-style: disc;
-    list-style-position: outside;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
-    padding-left: 2rem;
-}
-
-.liste-axes li {
-    margin-bottom: 1rem;
-    line-height: 1.8;
-}
-
-.liste-axes li:last-child {
-    margin-bottom: 0;
+    list-style: inherit;
+    list-style-position: inside;
+    margin-top: -1.25rem;
 }
 
 .titre:target::before {

@@ -4,12 +4,12 @@
     }
 ?>
 <footer class="border-y border-gray-400 text-center mx-6 py-2 mb-1">
-    <p class="font-bold">SAÉ 203 - Concevoir un site web avec une source de données</p>
-    <p class="font-bold">MMI <?php echo (date("Y") - 1) . "-" . (date("Y") + 2); ?></p>
-    <p>Projet réalisé par :</p>
-    <ul class="inline-flex">
-        <li class="px-1">Emmanuel MBUMBA</li>
-        <li class="px-1">Ammar OSEI-MOHAMEND</li>
-        <li class="px-1">Selyan NAIT SIDI AHMED</li>
+    <p class="font-bold text-gray-900">SAÉ 203 - Concevoir un site web avec une source de données</p>
+    <p class="font-bold text-gray-900 uppercase">MMI <?php echo (date("Y") - 1) . "-" . (date("Y") + 2); ?></p>
+    <p class="text-gray-700">Projet réalisé par :</p>
+    <ul class="inline-flex justify-center gap-x-2">
+        <li class="px-1 text-gray-800 font-medium">Emmanuel MBUMBA</li>
+        <li class="px-1 text-gray-800 font-medium">Ammar OSEI-MOHAMEND</li>
+        <li class="px-1 text-gray-800 font-medium">Selyan NAIT SIDI AHMED</li>
     </ul>
 </footer>

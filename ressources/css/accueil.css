@@ -1,20 +1,30 @@
-/* Effets de survol pour les articles de l'accueil (sans transitions) */
+/* Effets de survol pour les articles de l'accueil (avec transitions) */
 
 .liste-articles .article {
     display: block;
     border-radius: 0.75rem;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .liste-articles .article:hover,
 .liste-articles .article:focus {
     transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     outline: none;
+}
+
+.liste-articles .article img {
+    transition: transform 0.5s ease;
 }
 
 .liste-articles .article:hover img,
 .liste-articles .article:focus img {
     transform: scale(1.05);
+}
+
+.liste-articles .article .textes .titre {
+    transition: color 0.3s ease;
 }
 
 .liste-articles .article:hover .textes .titre,
@@ -24,6 +34,6 @@
 
 /* Accessibilité pour le focus clavier */
 .liste-articles .article:focus-visible {
-    ring: 2px solid #e11d48;
-    ring-offset: 2px;
+    outline: 2px solid #e11d48;
+    outline-offset: 2px;
 }
