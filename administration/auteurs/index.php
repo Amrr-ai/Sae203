@@ -5,10 +5,7 @@ $requete_brute = "SELECT * FROM auteur";
 $resultat_brut = mysqli_query($mysqli_link, $requete_brute);
 
 $page_courante = "auteurs";
-$racine_URL = pathinfo($_SERVER['REQUEST_URI']);
-$dirname = $racine_URL['dirname'];
-
-$URL_creation = "{$dirname}/creation.php";
+$URL_creation = "administration/auteurs/creation.php";
 ?>
 
 <!DOCTYPE html>
