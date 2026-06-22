@@ -43,7 +43,7 @@ $URL_creation = "administration/auteurs/creation.php";
                     </thead>
                     <tbody>
                         <?php while ($element = mysqli_fetch_array($resultat_brut, MYSQLI_ASSOC)) {
-                            $lien_edition = "{$dirname}/edition.php?id={$element['id']}"; ?>
+                            $lien_edition = "administration/auteurs/edition.php?id={$element['id']}"; ?>
                             <tr class="odd:bg-neutral-50 border-b-2 border-b-gray-100 last:border-b-0 first:border-t-2 first:border-t-gray-200">
                                 <td class="pl-8 p-4 font-bold" data-label="Id"><?php echo $element[
                                     'id'
