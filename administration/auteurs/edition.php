@@ -24,7 +24,7 @@ $erreur = "";
 
 if ($formulaire_soumis) {
     $nom = htmlentities(trim($_POST['nom'] ?? ''));
-    $prenom = trim($_POST['prenom'] ?? '');
+    $prenom = htmlentities(trim($_POST['prenom'] ?? ''));
     $lien_avatar = trim($_POST['lien_avatar'] ?? '');
     $lien_twitter = trim($_POST['lien_twitter'] ?? '');
 
