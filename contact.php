@@ -49,6 +49,7 @@ if ($formulaire_soumis) {
 
 <head>
     <base href="/<?php echo $_ENV['CHEMIN_BASE']; ?>">
+    <link rel="icon" href="./ressources/images/logo-cyu-couleur.svg" type="image/svg+xml">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
