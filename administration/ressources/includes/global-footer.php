@@ -1,0 +1,11 @@
+<?php
+    if (!is_null($mysqli_link)) {
+        mysqli_close($mysqli_link);
+    }
+?>
+<footer class="border-y border-gray-400 text-center mx-6 py-2 mb-1">
+    <p class="font-bold text-gray-900">SAÉ 203 - Concevoir un site web avec une source de données</p>
+    <p class="font-bold text-gray-900 uppercase">MMI <?php echo (date("Y") - 1) . "-" . (date("Y") + 2); ?></p>
+    <p class="text-gray-700">Projet réalisé par :</p>
+    <p class="text-gray-800 font-medium">Ammar J. Nom_Equipier_2 Nom_Equipier_3</p>
+</footer>
