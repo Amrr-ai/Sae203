@@ -11,7 +11,7 @@ $formulaire_soumis = !empty($_POST);
 $erreur = "";
 
 if ($formulaire_soumis) {
-    $titre = trim($_POST['titre'] ?? '');
+    $titre = htmlentities(trim($_POST['titre'] ?? ''));
     $chapo = trim($_POST['chapo'] ?? '');
     $contenu = trim($_POST['contenu'] ?? '');
     $image = trim($_POST['image'] ?? '');
