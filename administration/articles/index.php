@@ -19,10 +19,7 @@ $requete_brute = '
 $resultat_brut = mysqli_query($mysqli_link, $requete_brute);
 
 $page_courante = "articles";
-$racine_URL = pathinfo($_SERVER['REQUEST_URI']);
-$dirname = $racine_URL['dirname'];
-
-$URL_creation = "{$dirname}/creation.php";
+$URL_creation = "administration/articles/creation.php";
 ?>
 
 <!DOCTYPE html>
