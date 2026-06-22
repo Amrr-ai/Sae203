@@ -30,7 +30,7 @@ $erreur = "";
 if ($formulaire_soumis) {
     $titre = htmlentities(trim($_POST['titre'] ?? ''));
     $chapo = htmlentities(trim($_POST['chapo'] ?? ''));
-    $contenu = trim($_POST['contenu'] ?? '');
+    $contenu = htmlentities(trim($_POST['contenu'] ?? ''));
     $image = trim($_POST['image'] ?? '');
     $lien_yt = trim($_POST['lien_yt'] ?? '');
     $auteur_id = $_POST['auteur_id'] !== "" ? (int)$_POST['auteur_id'] : "NULL";
