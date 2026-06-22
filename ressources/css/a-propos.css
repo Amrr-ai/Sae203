@@ -61,8 +61,8 @@
 }
 
 .liste-axes {
-    list-style: inherit;
-    list-style-position: inside;
+    list-style: disc;
+    list-style-position: outside;
     margin-top: -1.25rem;
 }
 
